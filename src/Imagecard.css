@@ -1,0 +1,30 @@
+.card {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .card-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .card-content {
+    text-align: center;
+  }
+  
+  .quote {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .author {
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+  }
+  
