@@ -1,10 +1,16 @@
 .card {
-    background-color: #f7f7f7;
+    background-color: #cf0c0c;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     max-width: 400px;
-    margin: 30px auto;
+    margin: 0 auto;
+  }
+  
+  .card-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
   }
   
   .card-content {

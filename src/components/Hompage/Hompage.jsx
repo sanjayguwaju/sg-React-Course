@@ -1,5 +1,6 @@
 import "./Homepage.css"
-import Imagecard from "./Imagecard"
+import Imagecard from "../ImageCard/Imagecard"
+import Button from '@mui/material/Button';
 const Homepage = () => {
   return (
     <div className="card">
@@ -8,8 +9,18 @@ const Homepage = () => {
             "Believe you can and you're halfway there."
         </h2>
         <p className="author">- Theodore Roosevelt</p>
+        
         </div>
     <Imagecard/>
+    <Button variant="contained" sx={{
+    borderRadius: 50,
+
+    }}>
+      Up
+    </Button>
+    <Button variant="contained">
+      Down
+    </Button>
   </div>
   )
 }
