@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
-    background-color: #fff;
+    height: 100px;
+    background-color: #a02f2f;
     font-size: 1.2rem;
     position: sticky;
     top: 0;
@@ -23,7 +23,14 @@
 .nav-icon {
     margin-right: 0.5rem;
 }
+ul {
+    display: flex;
+    
+}
 
 li {
+    
     list-style: none;
+    justify-content: space-between;
+
 }
